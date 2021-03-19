@@ -21,7 +21,7 @@ Some important considerations:
 1. You have to create defaults file in advance to make this script work
 adpatch defaultsfile=$APPL_TOP/admin/$TWO_TASK/adalldefaults.txt
 
-2. You need to update the environment file, APPSLOGIN(apps/<apps password>), PATCH_TOP_DIR, MOSUser & MOSPass as per your environment
+2. You need to update the environment file, APPSLOGIN(apps/<password>), PATCH_TOP_DIR, MOSUser & MOSPass as per your environment
 
 3. Assuming we are going to drop previous AutoPatch session, I have used "abandon=yes". Else it will fail with below error
 
