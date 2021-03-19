@@ -10,11 +10,17 @@ Location: /home/applmgr/scripts/auto_patch (this is also default patch location,
 Below is sequence of steps to download and apply EBS patch through this tool.
 
 Step 1.	sh ebs_apps_patch.sh download_patch <PATCH_ID>
+
 Step 2.	sh ebs_apps_patch.sh stop_ebs_apps
+
 Step 3.	sh ebs_apps_patch.sh enable_maintenance
+
 Step 4. sh ebs_apps_patch.sh apply_patch <PATCH_ID>
+
 Step 5.	sh ebs_apps_patch.sh check_patch_applied <PATCH_ID>
+
 Step 6.	sh ebs_apps_patch.sh disable_maintenance
+
 Step 7.	sh ebs_apps_patch.sh start_ebs_apps
 
 Some important considerations:
